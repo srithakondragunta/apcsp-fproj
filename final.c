@@ -41,7 +41,6 @@ int main(int argc, char* argv[])
  if (choice == 1)
   {
 	float llength = atof(argv[2]);
-	float ulength = atof(argv[3]);
         float width = atof(argv[4]);
    for (float llength = lower; llength <= upper; llength++)
     {
@@ -52,7 +51,6 @@ int main(int argc, char* argv[])
   if (choice == 2)
    {
 	float lbase = atof(argv[2]);
-	float upbase = atof(argv[3]);
 	 float height = atof(argv[4]);
 	for (float lbase = lower; lbase <= upper; lbase++)
     {
